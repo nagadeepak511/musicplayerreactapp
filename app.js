@@ -7,7 +7,7 @@ app.use(express.json());
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 let db;
-var mongoUrl = 'mongodb://localhost:27017';
+var mongoUrl = 'mongodb+srv://naga:test123@edumato.1t9ez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 var port = process.env.PORT || 8080;
 var bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
